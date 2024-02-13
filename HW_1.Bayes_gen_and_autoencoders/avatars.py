@@ -39,7 +39,7 @@ class AvatarGenerator:
 
     def generate(self, convert_colors: bool = True, show: bool = True,
                  save: bool = False):
-        prob = 1
+        log_prob = 0
         new_img = np.zeros(self.img_shape)
 
         for x in trange(self.img_shape[0]):
@@ -50,14 +50,16 @@ class AvatarGenerator:
                                                      p=pixel_probs)
                     channel_prob = pixel_probs[channel_value]
                     new_img[x, y, z] = channel_value
-                    prob *= channel_prob
+                    log_prob += np.log(channel_prob)
 
+        prob = np.exp(log_prob)
         if convert_colors:
             new_img = new_img[:, :, ::-1]
         image = Image.fromarray(np.uint8(new_img))
         if show:
             display(image)
-            print(f"The probability of this image is: {prob}")
+            print(f"The probability of this image is: {prob}.")
+            print(f"The log-probability is {log_prob}.")
         if save:
             self.save_image(image)
         return image, prob
