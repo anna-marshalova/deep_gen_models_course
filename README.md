@@ -16,6 +16,8 @@
 См. пример использования в `Bayes_gen.ipynb`.  
 Примеры получившихся изображений см. в `generated_images`.  
 
+![avatar](HW_1.Bayes_gen_and_autoencoders/generated_images/1.png)
+
 ## Part 2. Autoencoders (см. `Autoencoders.ipynb`)
 Реализован пайплайн поиска проливов с помощью автоэнкодеров.
 Этапы работы пайплайна:
