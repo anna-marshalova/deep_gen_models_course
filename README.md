@@ -5,7 +5,7 @@
 - [X] Имплементированный GAN обучен на датасете CelebA
 - [X] Проведены эксперименты с целью достижения сходимости
       
-[Ноутубук с обучением](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_2/gan-celeba.ipynb). 
+**[Ноутубук с обучением](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_2/gan-celeba.ipynb).**
 
 # Эксперименты
 Было проведено более **40** экспериментов, включабщих в себя:
@@ -16,7 +16,7 @@
 - Изменение фаункции активации генератора на **Tanh** (вместо Leaky ReLU)
 - Изменение **размера скрытого пространства**
 
-Подробнее ознакомиться с результатами можно в [W&B репорте](https://wandb.ai/missmarshal22/deep-gen-hw2/reports/GAN-CelebA-report--Vmlldzo3MjY4MjI5?accessToken=0s6jpvs19f92bd7bsbo24ndv2ydm15blclx2ks4l4j5brgexpf4n8ku7kgddg6fm).
+**Подробнее ознакомиться с результатами можно в [W&B репорте](https://wandb.ai/missmarshal22/deep-gen-hw2/reports/GAN-CelebA-report--Vmlldzo3MjY4MjI5?accessToken=0s6jpvs19f92bd7bsbo24ndv2ydm15blclx2ks4l4j5brgexpf4n8ku7kgddg6fm).**
 
 Лоссы генератора и дискриминатора для лучшего эксперимента.
 
