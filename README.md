@@ -1,4 +1,4 @@
-# Task 1 👔👴🧫
+# Task 1 👔👴💧
 
 ## Part 1. Bayesian generation (см. `Bayes_gen.ipynb`)
 
