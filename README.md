@@ -18,8 +18,23 @@
 
 **Подробнее ознакомиться с результатами можно в [W&B репорте](https://wandb.ai/missmarshal22/deep-gen-hw2/reports/GAN-CelebA-report--Vmlldzo3MjY4MjI5?accessToken=0s6jpvs19f92bd7bsbo24ndv2ydm15blclx2ks4l4j5brgexpf4n8ku7kgddg6fm).**
 
+# Пример эксперимента
 
-Лоссы генератора и дискриминатора для лучшего эксперимента.
+|Hyperparam|Value|
+|---|---|
+|Discriminator_lr|0.0002|
+|Generator lr|0.0004|
+|Discriminator weight decay|0.0001|
+|Epochs|15|
+|Latent space size|200|
+|Generator activation function| Tanh|
+
+Лоссы генератора (🟦) и дискриминатора (🟧) для этого эксперимента.
+
+![losses](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_2/charts/rare-microwave-77.png)
 
 Изображения, полученные в этом эксперименте.
+
+![images](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_2/images/rare-microwave-77.png)
+
 
