@@ -22,7 +22,7 @@
 
 |Hyperparam|Value|
 |---|---|
-|Discriminator_lr|0.0002|
+|Discriminator lr|0.0002|
 |Generator lr|0.0004|
 |Discriminator weight decay|0.0001|
 |Epochs|15|
