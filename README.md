@@ -1,1 +1,1 @@
-# Task3. StyleGAN 👦🏻⚡👓
+# Task3. StyleGAN sampling 👦🏻⚡👓
