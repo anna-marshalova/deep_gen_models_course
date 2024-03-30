@@ -13,7 +13,7 @@
 Более подробно ознакомиться с экспериментами можно в [W&B репорте](https://wandb.ai/missmarshal22/deep-gen-hw3/reports/StyleGAN2-latent-space-projections--Vmlldzo3MzUwNTU1).
 
 Результат (гиперпараметры из столбца Selected):
-![projections](https://github.com/anna-marshalova/deep_gen_models_course/tree/HW_3.StyleGAN\results\best_params_projections.png)
+![projections](https://github.com/anna-marshalova/deep_gen_models_course/tree/HW_3.StyleGAN/results/best_params_projections.png)
 
 2. На фото персонажей перенесен стиль с 3 изображений. Проведены эксперименты со следующими гиперпараметрами:
 
