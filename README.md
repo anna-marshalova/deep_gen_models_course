@@ -31,12 +31,12 @@
 
 |Hyperparam|Min|Max|Selected
 |---|---|---|---|
-|Psi|4|10|4|
-|Min index|0|1|0|
-|Max index|15|18|18|
+|Psi|4|6|4|
+|Min index|2|4|3|
+|Max index|4|6|6|
 
 Наиболее удачный, на мой взгляд, результат (гиперпараметры из столбца Selected):
-![style](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_3/HW_3.StyleGAN/results/best_params_smile.png)
+![expressions](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_3/HW_3.StyleGAN/results/best_params_expressions.png)
 
 3. Лица персонажей перенесены друг на друга. Проведены эксперименты по подбору гиперпараметров:
 
