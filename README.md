@@ -27,7 +27,7 @@
 ![style](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_3/HW_3.StyleGAN/results/best_params_style.png)
 
 
-2. На фото персонажей перенесена улыбка. Проведены эксперименты со следующими гиперпараметрами:
+3. На фото персонажей перенесена улыбка. Проведены эксперименты со следующими гиперпараметрами:
 
 |Hyperparam|Min|Max|Selected
 |---|---|---|---|
@@ -38,7 +38,7 @@
 Наиболее удачный, на мой взгляд, результат (гиперпараметры из столбца Selected):
 ![expressions](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_3/HW_3.StyleGAN/results/best_params_expressions.png)
 
-3. Лица персонажей перенесены друг на друга. Проведены эксперименты по подбору гиперпараметров:
+4. Лица персонажей перенесены друг на друга. Проведены эксперименты по подбору гиперпараметров:
 
 |Hyperparam|Min|Max|Selected
 |---|---|---|---|
@@ -57,4 +57,4 @@
 
 Более подробно ознакомиться с экспериментами можно в [W&B репорте](https://wandb.ai/missmarshal22/deep-gen-hw3-faceswap/reports/StyleGAN2-Arcface-Face-Swap--Vmlldzo3MzUwNzIy).
 
-Весь код в ноутбуке [HW_3.StyleGAN\Stylegan2.ipynb](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_3//HW_3.StyleGAN/Stylegan2.ipynb).
+Весь код в ноутбуке [HW_3.StyleGAN/Stylegan2.ipynb](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_3//HW_3.StyleGAN/Stylegan2.ipynb).
