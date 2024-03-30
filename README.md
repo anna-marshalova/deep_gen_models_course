@@ -42,12 +42,12 @@
 
 |Hyperparam|Min|Max|Selected
 |---|---|---|---|
-|Learning rate|1e-3|5e-2|5e-3|
-|Num steps|50|200|164|
-|Arcface weight|0.5|10|5|
-|Lpips weight|0.5|10|5|
-|Rec weight|0.5|10|2|
-|Noise weight|5e-5|5e5|5e-1|
+|Learning rate|1e-3|5e-2|3e-2|
+|Num steps|50|300|274|
+|Arcface weight|0.5|10|0.65|
+|Lpips weight|0.5|2|0.5|
+|Rec weight|0.5|2|0.6|
+|Noise weight|5e-5|5e5|30226|
 
 Результат для одного персонажа (гиперпараметры из столбца Selected):
 
