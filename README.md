@@ -13,7 +13,7 @@
 Более подробно ознакомиться с экспериментами можно в [W&B репорте](https://wandb.ai/missmarshal22/deep-gen-hw3/reports/StyleGAN2-latent-space-projections--Vmlldzo3MzUwNTU1).
 
 Результат (гиперпараметры из столбца Selected):
-![projections](HW_3.StyleGAN\results\best_params_projections.png)
+![projections](https://github.com/anna-marshalova/deep_gen_models_course/tree/HW_3.StyleGAN\results\best_params_projections.png)
 
 2. На фото персонажей перенесен стиль с 3 изображений. Проведены эксперименты со следующими гиперпараметрами:
 
@@ -24,7 +24,7 @@
 |Max index|17|18|18|
 
 Наиболее удачный, на мой взгляд, результат (гиперпараметры из столбца Selected):
-![style](HW_3.StyleGAN\results\best_params_style.png)
+![style](https://github.com/anna-marshalova/deep_gen_models_course/tree/HW_3.StyleGAN\results\best_params_style.png)
 
 
 2. На фото персонажей перенесена улыбка. Проведены эксперименты со следующими гиперпараметрами:
@@ -36,7 +36,7 @@
 |Max index|15|18|18|
 
 Наиболее удачный, на мой взгляд, результат (гиперпараметры из столбца Selected):
-![style](HW_3.StyleGAN\results\best_params_smile.png)
+![style](https://github.com/anna-marshalova/deep_gen_models_course/tree/HW_3.StyleGAN\results\best_params_smile.png)
 
 3. Лица персонажей перенесены друг на друга. Проведены эксперименты по подбору гиперпараметров:
 
@@ -51,10 +51,10 @@
 
 Результат для одного персонажа (гиперпараметры из столбца Selected):
 
-![projections](HW_3.StyleGAN\results\face_swap\ron_best_params_projections.png)
+![projections](https://github.com/anna-marshalova/deep_gen_models_course/tree/HW_3.StyleGAN\results\face_swap\ron_best_params_projections.png)
 
-Результаты для других персонажей см. в папке [`HW_3.StyleGAN/results/face_swap`](HW_3.StyleGAN/results/face_swap).
+Результаты для других персонажей см. в папке [`HW_3.StyleGAN/results/face_swap`](https://github.com/anna-marshalova/deep_gen_models_course/tree/HW_3.StyleGAN/results/face_swap).
 
 Более подробно ознакомиться с экспериментами можно в [W&B репорте](https://wandb.ai/missmarshal22/deep-gen-hw3-faceswap/reports/StyleGAN2-Arcface-Face-Swap--Vmlldzo3MzUwNzIy).
 
-Весь код в ноутбуке [HW_3.StyleGAN\Stylegan2.ipynb](HW_3.StyleGAN\Stylegan2.ipynb).
+Весь код в ноутбуке [HW_3.StyleGAN\Stylegan2.ipynb](https://github.com/anna-marshalova/deep_gen_models_course/tree/HW_3.StyleGAN\Stylegan2.ipynb).
