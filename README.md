@@ -3,7 +3,7 @@
 1. Собран датасет из 19 изображений одного персонажа. Пример изображения (чтобы понимать как выглядит человек для сравнения с генерациями):
 [reference]()
 2. Обучен чекпоинт модели Stable diffusion 1.5. Примеры генераций см. в таблице 1
-3. Обучена LoRA. Проведены эксперименты с rank = 4, 16, 128. Примеры генераций см. в таблице 1
+3. Обучена LoRA. Проведены эксперименты с rank = 2, 4, 16, 128, 256. Примеры генераций см. в таблице 1
    
 <p>Таблица 1. Примеры генераций модели. Для всех генераций использовались следующие параметры: <code>num_inference_steps=35, guidance_scale=7, seed=42, negative_prompt="naked, nsfw, deformed, distorted, disfigured, poorly drawn, bad anatomy, extra limb, missing limb, floating limbs, mutated hands disconnected limbs, mutation, ugly, blurry, amputation"</code>.</p>
 <table>
@@ -12,7 +12,6 @@
 <td>Dreambooth</td>
 <td>LoRA (rank=2)</td>
 <td>LoRA (rank=4)</td>
-<td>LoRA (rank=8)</td>
 <td>LoRA (rank=16)</td>
 <td>LoRA (rank=128)</td>
 <td>LoRA (rank=256)</td>
@@ -23,7 +22,6 @@
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/dreambooth/garden.jpg' alt = 'garden_dreambooth' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_2/garden.jpg' alt = 'garden_lora_2' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_4/garden.jpg' alt = 'garden_lora_4' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_8/garden.jpg' alt = 'garden_lora_8' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_16/garden.jpg' alt = 'garden_lora_16' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_128/garden.jpg' alt = 'garden_lora_128' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_256/garden.jpg' alt = 'garden_lora_256' width='1000px'></td>
@@ -35,7 +33,6 @@
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/dreambooth/computer%20game.jpg' alt = 'computer game_dreambooth' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_2/computer%20game.jpg' alt = 'computer game_lora_2' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_4/computer%20game.jpg' alt = 'computer game_lora_4' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_8/computer%20game.jpg' alt = 'computer game_lora_8' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_16/computer%20game.jpg' alt = 'computer game_lora_16' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_128/computer%20game.jpg' alt = 'computer game_lora_128' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_256/computer%20game.jpg' alt = 'computer game_lora_256' width='1000px'></td>
@@ -47,15 +44,16 @@
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/dreambooth/mansion.jpg' alt = 'mansion_dreambooth' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_2/mansion.jpg' alt = 'mansion_lora_2' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_4/mansion.jpg' alt = 'mansion_lora_4' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_8/mansion.jpg' alt = 'mansion_lora_8' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_16/mansion.jpg' alt = 'mansion_lora_16' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_128/mansion.jpg' alt = 'mansion_lora_128' width='1000px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_256/mansion.jpg' alt = 'mansion_lora_256' width='1000px'></td>
 </tr>
+
+
 </table>
 
 
-1. В пайплайн добавлен ControlNet. Примеры генераций см. в таблице 2
+4. В пайплайн добавлен ControlNet. Примеры генераций см. в таблице 2
    
 <p>Таблица 2. Примеры генераций ControlNet. Для всех генераций использовались следующие параметры: <code>num_inference_steps=20, guidance_scale=7, seed=42, negative_prompt="monochrome, lowres, bad anatomy, worst quality, low quality"</code>.</p>
 <table>
