@@ -9,17 +9,10 @@
 <table>
 <th>
 <td>Prompt</td>
-<<<<<<< HEAD
 <td width='200px'>Dreambooth</td>
 <td width='200px'>LoRA (rank=2)</td>
 <td width='200px'>LoRA (rank=16)</td>
 <td width='200px'>LoRA (rank=128)</td>
-=======
-<td>Dreambooth</td>
-<td>LoRA (rank=2)</td>
-<td>LoRA (rank=16)</td>
-<td>LoRA (rank=128)</td>
->>>>>>> 9642c1a3ad57c1dbf541dd80e2a555facb3e6715
 </th>
 <tr>
 <td>garden</td>
