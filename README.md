@@ -57,16 +57,9 @@ table tbody {
 В пайплайн добавлен ControlNet. Примеры генераций см. в таблице 2
    
 <p>Таблица 2. Примеры генераций ControlNet. Для всех генераций использовались следующие параметры: <code>num_inference_steps=20, guidance_scale=7, seed=42, negative_prompt="monochrome, lowres, bad anatomy, worst quality, low quality"</code>.</p>
-<style>table {
-    display: block;
-    overflow: scroll;
-    }
 
-    table tbody {
-    display: table;
-    width: 100%;
-    }
-    </style><table>
+
+<table>
 <th>
 <td width='200px'>Prompt</td>
 <td width='200px'>Dreambooth</td>
