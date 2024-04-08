@@ -7,9 +7,18 @@
    
 <p>Таблица 1. Примеры генераций модели. Для всех генераций использовались следующие параметры: <code>num_inference_steps=35, guidance_scale=7, seed=42, negative_prompt="naked, nsfw, deformed, distorted, disfigured, poorly drawn, bad anatomy, extra limb, missing limb, floating limbs, mutated hands disconnected limbs, mutation, ugly, blurry, amputation"</code>.</p>
 
-<table>
+<style>table {
+  display: block;
+  overflow: scroll;
+}
+
+table tbody {
+  display: table;
+  width: 100%;
+}
+</style><table>
 <th>
-<td>Prompt</td>
+<td  width='200px'>Prompt</td>
 <td width='200px'>Dreambooth</td>
 <td width='200px'>LoRA (rank=2)</td>
 <td width='200px'>LoRA (rank=16)</td>
