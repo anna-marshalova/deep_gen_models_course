@@ -57,40 +57,38 @@ table tbody {
 В пайплайн добавлен ControlNet. Примеры генераций см. в таблице 2
    
 <p>Таблица 2. Примеры генераций ControlNet. Для всех генераций использовались следующие параметры: <code>num_inference_steps=20, guidance_scale=7, seed=42, negative_prompt="monochrome, lowres, bad anatomy, worst quality, low quality"</code>.</p>
-<table>
+<style>table {
+    display: block;
+    overflow: scroll;
+    }
+
+    table tbody {
+    display: table;
+    width: 100%;
+    }
+    </style><table>
 <th>
-<td>Prompt</td>
-<td>Reference</td>
-<td>Dreambooth</td>
-<td>LoRA (rank=4)</td>
-<td>LoRA (rank=16)</td>
-<td>LoRA (rank=128)</td>
+<td width='200px'>Prompt</td>
+<td width='200px'>Dreambooth</td>
+<td width='200px'>LoRA (rank=2)</td>
+<td width='200px'>LoRA (rank=16)</td>
+<td width='200px'>LoRA (rank=128)</td>
 </th>
 <tr>
-<td>garden</td>
-<td>prompt</td>
-<td> <img src='' width='768px'></td>
-<td> <img src='' width='768px'></td>
-<td> <img src='' width='768px'></td>
-<td> <img src='' width='768px'></td>
-<td> <img src='' width='768px'></td>
-</tr>
+<td>mona lisa</td>
+<td>portrait of sks woman face, best quality, extremely detailed, 4k, hdr, super resolution</td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/dreambooth/mona%20lisa.jpg' alt = 'mona lisa_dreambooth' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_2/mona%20lisa.jpg' alt = 'mona lisa_lora_2' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_16/mona%20lisa.jpg' alt = 'mona lisa_lora_16' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_128/mona%20lisa.jpg' alt = 'mona lisa_lora_128' width='200px'></td>
 <tr>
-<td>computer game</td>
-<td>prompt</td>
-<td> <img src='' width='768px'></td>
-<td> <img src='' width='768px'></td>
-<td> <img src='' width='768px'></td>
-<td> <img src='' width='768px'></td>
-<td> <img src='' width='768px'></td>
+<td>pearl earring</td>
+<td>portrait of sks woman face, best quality, extremely detailed, 4k, hdr, super resolution</td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/dreambooth/pearl%20earring.jpg' alt = 'pearl earring_dreambooth' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_2/pearl%20earring.jpg' alt = 'pearl earring_lora_2' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_16/pearl%20earring.jpg' alt = 'pearl earring_lora_16' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_128/pearl%20earring.jpg' alt = 'pearl earring_lora_128' width='200px'></td>
 </tr>
-<tr>
-<td>mansion</td>
-<td>prompt</td>
-<td> <img src='' width='768px'></td>
-<td> <img src='' width='768px'></td>
-<td> <img src='' width='768px'></td>
-<td> <img src='' width='768px'></td>
-<td> <img src='' width='768px'></td>
-</tr>
+
+
 </table>
