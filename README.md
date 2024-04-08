@@ -1,7 +1,7 @@
 # Task4. Stable Diffusion training
 
 1. Собран датасет из 19 изображений одного персонажа. Пример изображения (чтобы понимать как выглядит человек для сравнения с генерациями):
-[reference]()
+[!reference]()
 2. Обучен чекпоинт модели Stable diffusion 1.5. Примеры генераций см. в таблице 1
 3. Обучена LoRA. Проведены эксперименты с rank = 2, 4, 16, 128, 256. Примеры генераций см. в таблице 1
    
@@ -19,34 +19,34 @@
 <tr>
 <td>garden</td>
 <td>photo of sks woman face, wearing jeans, in a graden with many plants and flowers, standing, smiling, 4k, sunny lighting, raw, hrd, hd, high quality, realism, sharp focus, beautiful, detailed eyes</td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/dreambooth/garden.jpg' alt = 'garden_dreambooth' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_2/garden.jpg' alt = 'garden_lora_2' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_4/garden.jpg' alt = 'garden_lora_4' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_16/garden.jpg' alt = 'garden_lora_16' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_128/garden.jpg' alt = 'garden_lora_128' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_256/garden.jpg' alt = 'garden_lora_256' width='1000px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/dreambooth/garden.jpg' alt = 'garden_dreambooth' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_2/garden.jpg' alt = 'garden_lora_2' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_4/garden.jpg' alt = 'garden_lora_4' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_16/garden.jpg' alt = 'garden_lora_16' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_128/garden.jpg' alt = 'garden_lora_128' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_256/garden.jpg' alt = 'garden_lora_256' width='768px'></td>
 </tr>
 
 <tr>
 <td>computer game</td>
 <td>close-up portrait of sks woman, in a teenage room, unreal engine, artstation, detailed, cinematic, hyperrealistic, octane render, daz, unreal 5</td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/dreambooth/computer%20game.jpg' alt = 'computer game_dreambooth' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_2/computer%20game.jpg' alt = 'computer game_lora_2' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_4/computer%20game.jpg' alt = 'computer game_lora_4' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_16/computer%20game.jpg' alt = 'computer game_lora_16' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_128/computer%20game.jpg' alt = 'computer game_lora_128' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_256/computer%20game.jpg' alt = 'computer game_lora_256' width='1000px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/dreambooth/computer%20game.jpg' alt = 'computer game_dreambooth' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_2/computer%20game.jpg' alt = 'computer game_lora_2' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_4/computer%20game.jpg' alt = 'computer game_lora_4' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_16/computer%20game.jpg' alt = 'computer game_lora_16' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_128/computer%20game.jpg' alt = 'computer game_lora_128' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_256/computer%20game.jpg' alt = 'computer game_lora_256' width='768px'></td>
 </tr>
 
 <tr>
 <td>mansion</td>
 <td>a portrait portrait of sks woman, with a laced collar, in a victorian mansion, standing, 4k, hd, extremely detailed, beautiful, high quality, realism, sharp focus</td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/dreambooth/mansion.jpg' alt = 'mansion_dreambooth' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_2/mansion.jpg' alt = 'mansion_lora_2' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_4/mansion.jpg' alt = 'mansion_lora_4' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_16/mansion.jpg' alt = 'mansion_lora_16' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_128/mansion.jpg' alt = 'mansion_lora_128' width='1000px'></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_256/mansion.jpg' alt = 'mansion_lora_256' width='1000px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/dreambooth/mansion.jpg' alt = 'mansion_dreambooth' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_2/mansion.jpg' alt = 'mansion_lora_2' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_4/mansion.jpg' alt = 'mansion_lora_4' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_16/mansion.jpg' alt = 'mansion_lora_16' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_128/mansion.jpg' alt = 'mansion_lora_128' width='768px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/lora/lora_256/mansion.jpg' alt = 'mansion_lora_256' width='768px'></td>
 </tr>
 
 
@@ -68,28 +68,28 @@
 <tr>
 <td>garden</td>
 <td>prompt</td>
-<td> <img src='' width='1000px'></td>
-<td> <img src='' width='1000px'></td>
-<td> <img src='' width='1000px'></td>
-<td> <img src='' width='1000px'></td>
-<td> <img src='' width='1000px'></td>
+<td> <img src='' width='768px'></td>
+<td> <img src='' width='768px'></td>
+<td> <img src='' width='768px'></td>
+<td> <img src='' width='768px'></td>
+<td> <img src='' width='768px'></td>
 </tr>
 <tr>
 <td>computer game</td>
 <td>prompt</td>
-<td> <img src='' width='1000px'></td>
-<td> <img src='' width='1000px'></td>
-<td> <img src='' width='1000px'></td>
-<td> <img src='' width='1000px'></td>
-<td> <img src='' width='1000px'></td>
+<td> <img src='' width='768px'></td>
+<td> <img src='' width='768px'></td>
+<td> <img src='' width='768px'></td>
+<td> <img src='' width='768px'></td>
+<td> <img src='' width='768px'></td>
 </tr>
 <tr>
 <td>mansion</td>
 <td>prompt</td>
-<td> <img src='' width='1000px'></td>
-<td> <img src='' width='1000px'></td>
-<td> <img src='' width='1000px'></td>
-<td> <img src='' width='1000px'></td>
-<td> <img src='' width='1000px'></td>
+<td> <img src='' width='768px'></td>
+<td> <img src='' width='768px'></td>
+<td> <img src='' width='768px'></td>
+<td> <img src='' width='768px'></td>
+<td> <img src='' width='768px'></td>
 </tr>
 </table>
