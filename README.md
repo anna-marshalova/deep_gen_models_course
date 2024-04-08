@@ -52,26 +52,28 @@
 
 <table>
 <th>
-<td  >Prompt</td>
-<td >Dreambooth</td>
-<td >LoRA (rank=2)</td>
-<td >LoRA (rank=16)</td>
-<td >LoRA (rank=128)</td>
+<td width='200px'>Prompt</td>
+<td>Reference</td><td width='200px'>Dreambooth</td>
+<td width='200px'>LoRA (rank=2)</td>
+<td width='200px'>LoRA (rank=16)</td>
+<td width='200px'>LoRA (rank=128)</td>
 </th>
 <tr>
 <td>mona_lisa</td>
 <td>portrait of sks woman face, best quality, extremely detailed, 4k, hdr, super resolution</td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/dreambooth/mona_lisa.jpg' alt = 'mona_lisa_dreambooth' ></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_2/mona_lisa.jpg' alt = 'mona_lisa_lora_2' ></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_16/mona_lisa.jpg' alt = 'mona_lisa_lora_16' ></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_128/mona_lisa.jpg' alt = 'mona_lisa_lora_128' ></td>
+<td><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1024px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg' alt = 'mona_lisa_reference' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/dreambooth/mona_lisa.jpg' alt = 'mona_lisa_dreambooth' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_2/mona_lisa.jpg' alt = 'mona_lisa_lora_2' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_16/mona_lisa.jpg' alt = 'mona_lisa_lora_16' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_128/mona_lisa.jpg' alt = 'mona_lisa_lora_128' width='200px'></td>
 <tr>
 <td>pearl_earring</td>
 <td>portrait of sks woman face, best quality, extremely detailed, 4k, hdr, super resolution</td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/dreambooth/pearl_earring.jpg' alt = 'pearl_earring_dreambooth' ></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_2/pearl_earring.jpg' alt = 'pearl_earring_lora_2' ></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_16/pearl_earring.jpg' alt = 'pearl_earring_lora_16' ></td>
-<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_128/pearl_earring.jpg' alt = 'pearl_earring_lora_128' ></td>
+<td><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg' alt = 'pearl_earring_reference' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/dreambooth/pearl_earring.jpg' alt = 'pearl_earring_dreambooth' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_2/pearl_earring.jpg' alt = 'pearl_earring_lora_2' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_16/pearl_earring.jpg' alt = 'pearl_earring_lora_16' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_128/pearl_earring.jpg' alt = 'pearl_earring_lora_128' width='200px'></td>
 </tr>
 
 
