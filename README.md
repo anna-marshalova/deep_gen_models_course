@@ -6,17 +6,6 @@
 3. Обучена LoRA. Проведены эксперименты с rank = 2, 4, 16, 128, 256. Примеры генераций см. в таблице 1
    
 <p>Таблица 1. Примеры генераций модели. Для всех генераций использовались следующие параметры: <code>num_inference_steps=35, guidance_scale=7, seed=42, negative_prompt="naked, nsfw, deformed, distorted, disfigured, poorly drawn, bad anatomy, extra limb, missing limb, floating limbs, mutated hands disconnected limbs, mutation, ugly, blurry, amputation"</code>.</p>
-<table>
-<th>
-<td>Prompt</td>
-<td width='200px'>Dreambooth</td>
-<td width='200px'>LoRA (rank=2)</td>
-<td width='200px'>LoRA (rank=16)</td>
-<td width='200px'>LoRA (rank=128)</td>
-</th>
-<tr>
-<td>garden</td>
-<td>photo of sks woman face, wearing jeans, in a graden with many plants and flowers, standing, smiling, 4k, sunny lighting, raw, hrd, hd, high quality, realism, sharp focus, beautiful, detailed eyes</td>
 
 <table>
 <th>
