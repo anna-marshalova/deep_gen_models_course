@@ -49,7 +49,7 @@
 
 4. В пайплайн добавлен ControlNet. Примеры генераций см. в таблице 2
    
-<p>Таблица 2. Примеры генераций ControlNet. Для всех генераций использовались следующие параметры: <code>num_inference_steps=20, guidance_scale=7, seed=42, negative_prompt="monochrome, lowres, bad anatomy, worst quality, low quality"</code>.</p>
+<p>Таблица 2. Примеры генераций ControlNet. Для всех генераций использовались следующие параметры: <code>num_inference_steps=35, guidance_scale=9, seed=20240410, negative_prompt="monochrome, lowres, bad anatomy, worst quality, low quality"</code>.</p>
 
 
 <table>
