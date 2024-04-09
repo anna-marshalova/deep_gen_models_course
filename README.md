@@ -1,6 +1,6 @@
 # Task4. Stable Diffusion training
 
-1. Собран датасет из 19 изображений одного персонажа. Пример изображения (чтобы понимать как выглядит человек для сравнения с генерациями):
+1. Собран датасет из 19 изображений одного персонажа. Пример изображения (для сравнения с генерациями):
    
 <img alt="reference" src="https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/reference.jpg" width="300px">
 
