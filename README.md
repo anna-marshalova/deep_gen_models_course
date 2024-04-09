@@ -90,7 +90,7 @@
 
 </table>
 
-Ноутбук с обучение и экспериментами: [HW_4.StableDiffusion/DreamBooth_Stable_Diffusion.ipynb](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion.DreamBooth_Stable_Diffusion.ipynb)
+Ноутбук с обучение и экспериментами: [HW_4.StableDiffusion/DreamBooth_Stable_Diffusion.ipynb](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/DreamBooth_Stable_Diffusion.ipynb)
 
 
 # Выводы
