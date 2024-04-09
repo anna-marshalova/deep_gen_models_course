@@ -77,6 +77,15 @@
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_16/pearl_earring.jpg' alt = 'pearl_earring_lora_16' width='200px'></td>
 <td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_128/pearl_earring.jpg' alt = 'pearl_earring_lora_128' width='200px'></td>
 </tr>
+<tr>
+<td>peach</td>
+<td>portrait of sks woman face, best quality, extremely detailed, 4k, hdr, super resolution</td>
+<td><img src='https://static.tildacdn.com/tild3230-3566-4334-a135-303835333033/photo.png' alt = 'peach_reference' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/dreambooth/peach.jpg' alt = 'peach_dreambooth' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_2/peach.jpg' alt = 'peach_lora_2' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_16/peach.jpg' alt = 'peach_lora_16' width='200px'></td>
+<td><img src='https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/controlnet/lora/lora_128/peach.jpg' alt = 'peach_lora_128' width='200px'></td>
+</tr>
 
 
 </table>
