@@ -4,8 +4,8 @@
    
 <img alt="reference" src="https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/reference.jpg" width="300px">
 
-1. Обучен чекпоинт модели Stable diffusion 1.5. Примеры генераций см. в таблице 1
-2. Обучена LoRA. Проведены эксперименты с rank = 2, 4, 16, 128, 256. Примеры генераций см. в таблице 1
+2. Обучен чекпоинт модели Stable diffusion 1.5. Примеры генераций см. в таблице 1
+3. Обучена LoRA. Проведены эксперименты с rank = 2, 4, 16, 128, 256. Примеры генераций см. в таблице 1
    
 <p>Таблица 1. Примеры генераций модели. Для всех генераций использовались следующие параметры: <code>num_inference_steps=35, guidance_scale=7, seed=42, negative_prompt="naked, nsfw, deformed, distorted, disfigured, poorly drawn, bad anatomy, extra limb, missing limb, floating limbs, mutated hands disconnected limbs, mutation, ugly, blurry, amputation"</code>.</p>
 
