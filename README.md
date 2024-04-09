@@ -2,7 +2,8 @@
 
 1. Собран датасет из 19 изображений одного персонажа. Пример изображения (чтобы понимать как выглядит человек для сравнения с генерациями):
    
-![reference](https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/reference.jpg)
+<img alt="reference" src="https://github.com/anna-marshalova/deep_gen_models_course/blob/homework_4/HW_4.StableDiffusion/report_images/reference.jpg" width="100px">
+
 1. Обучен чекпоинт модели Stable diffusion 1.5. Примеры генераций см. в таблице 1
 2. Обучена LoRA. Проведены эксперименты с rank = 2, 4, 16, 128, 256. Примеры генераций см. в таблице 1
    
